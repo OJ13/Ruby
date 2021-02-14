@@ -1,0 +1,16 @@
+# RUBY
+
+Instalação
+
+Existem várias maneiras de instalar, podemos utilizar ferramentas.
+Entrando no site oficial do Ruby, tem os modos de instalação para 
+cada sistema operacional. (https://rubyinstaller.org/)
+
+Podemos usar para estudo
+- CodeAnyWhere (Ruby on-line para estudo)
+
+IRB
+Quando instalamos o Ruby, ele trás junto de si o 'irb', o mesmo pode
+ser usado para testar comandos dentro do terminal
+só inicializar ele com o comando -> irb . E pronto só utilizar dentro 
+do proprio terminal.
