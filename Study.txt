@@ -4,7 +4,9 @@ Instalação
 
 Existem várias maneiras de instalar, podemos utilizar ferramentas.
 Entrando no site oficial do Ruby, tem os modos de instalação para 
-cada sistema operacional. (https://rubyinstaller.org/)
+cada sistema operacional. (https://rubyinstaller.org/), após o ruby
+instalado, com o comando 'ruby' no terminal conseguimos executar arquivos
+da extensão '.rb'
 
 Podemos usar para estudo
 - CodeAnyWhere (Ruby on-line para estudo)
@@ -14,3 +16,17 @@ Quando instalamos o Ruby, ele trás junto de si o 'irb', o mesmo pode
 ser usado para testar comandos dentro do terminal
 só inicializar ele com o comando -> irb . E pronto só utilizar dentro 
 do proprio terminal.
+
+Tipos de Dados
+Int, float, boolean, string, array,
+SYMBOL - igual a string com a diferença que ele é imutável, você atribui ele, sem as 
+aspas , voce incia o texto com dois pontos. caso voce coloque o mesmo texto em variaveis
+diferentes em symbol, ela aponta para o mesmo local na memória
+HASH - semelhante a array, porém representado com {}.
+No ruby não é preciso definir o tipo de dado antes de atribuir um valor
+a uma variavel, ele é definido dinâmicamente de acordo com que é atribuído.
+Para retornar o valor, além de precisarmos saber a chave que você quer, tem que colocar dois
+pontos no incio da chave.
+
+
+
