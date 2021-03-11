@@ -28,5 +28,28 @@ a uma variavel, ele é definido dinâmicamente de acordo com que é atribuído.
 Para retornar o valor, além de precisarmos saber a chave que você quer, tem que colocar dois
 pontos no incio da chave.
 
+Condicionais
+If, Else, ElsIf, Unless, Case
+If,Else e o ElsIf(elseif), padrão de todas as linguagens,
+Unless é quando a condição é falsa, e o Case é uma associação de ifs, checar varias condições
+
+Iteração
+For, While, Times, Do/While(loop)
+For, While e Do/While(loop), padrão de outras linguagens
+Times Executa uma repetição por um determinado número de vezes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
