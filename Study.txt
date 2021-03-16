@@ -38,6 +38,15 @@ For, While, Times, Do/While(loop)
 For, While e Do/While(loop), padrão de outras linguagens
 Times Executa uma repetição por um determinado número de vezes
 
+Collections
+São conjuntos agrupados, coleções, e temos dois tipos pricipais, Array e Hashs, a diferença entre 
+eles é que o Hash é muito semelhante a um objeto json, passando uma chave e valor
+
+Iterações
+Temos 3 principais métodos:
+EACH - semelhante ao for, porém não sobrescreve o valor das estruturas
+MAP - cria outro array, baseado no que já Existe
+SELECT - selecionar um ou mais valores dentro de um array, seguindo uma condição
 
 
 
