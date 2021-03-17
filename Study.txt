@@ -48,8 +48,18 @@ EACH - semelhante ao for, porém não sobrescreve o valor das estruturas
 MAP - cria outro array, baseado no que já Existe
 SELECT - selecionar um ou mais valores dentro de um array, seguindo uma condição
 
-
-
+Métodos e GEMS
+Métodos são formas de organizar instruções de um programa, utilizamos a palavra reservada
+'def'
+GEM - é um pacote de funcionalidades a ffim de resolver necessidades específicas de um programa
+em Ruby, semelhante a frameworks e libs em outras linguagens
+# para instalar uma gem, usamos o comando (gem install _____)
+# para desinstalar uma gem, usamos o comando (gem uninstall _____)
+# para listar as gem, usamos o comando (gem list)
+# gem bundle, ele controla, procura e instala gems
+Dentro de um projeto podemos criar um arquivo GemFile, e colocar as dependencias, então com o bundle
+ele já instala tudo que estiver nesse arquivo, podemos encontar várias gems em:
+(https://rubygems.org/)
 
 
 
