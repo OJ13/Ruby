@@ -61,8 +61,13 @@ Dentro de um projeto podemos criar um arquivo GemFile, e colocar as dependencias
 ele já instala tudo que estiver nesse arquivo, podemos encontar várias gems em:
 (https://rubygems.org/)
 
-
-
+POO
+Orientação à Objetos, aqui podemos criar aplicações dentro desse paradigma de programação.
+Para criar classes utilizamos a palavra reservada 'class', e para Instanciar utlizamos o nome da classe 
+que criamos seguido de '.new', como por exemplo { animal = Animal.new }
+Para utilizarmos herança usamos o operador '<' após o nome da classe exemplo { class Cachorro < Animal }
+Para o uso do polimorfismo, só herdar de uma outra classe e criar um método com o mesmo nome da classe pai,
+e podemos utilizar a palavra reservada 'super', para ainda assim executar o que esta no método da classe pai.
 
 
 
