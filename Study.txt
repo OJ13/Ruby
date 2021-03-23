@@ -71,6 +71,20 @@ e podemos utilizar a palavra reservada 'super', para ainda assim executar o que 
 Para utilizar classes dentro de outros arquivos, podemos utilizar a palavra reservada 
 'require' ou 'require_relative', casos de dependencia entre classes, é importante colocar na ordem os requires
 
+Variáveis (declaração)
+variavel local - minuscula e ou começando com sublinhado
+variavel global - com o require e começando com o $
+variavel de classe - começando com @@
+variavel de intancia - começa com o símbolo @
+
+
+
+
+
+
+
+
+
 
 
 
