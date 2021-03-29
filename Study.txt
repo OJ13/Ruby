@@ -77,6 +77,13 @@ variavel de intancia - começa com o símbolo @
 Atributos de uma classe sempre começam com @ e são privados
 Construtor ele é chamado atraves de um método chamado 'initialize'
 
+Blocks, Lambda e Modules(namespace, mixins)
+Blocks - é um bloco de código que pode ser entendido como uma função anônima, uma função sem nome.
+É definido entre (do...end) ou colchetes, e pode ou não receber parâmetros
+Lambdas são similares aos blocks mas podem ser salvas em variáveis para ser reutilizadas
+Modules: serve para agruapar um bloco de codigo, no caso de namespace é como um container que agrupa objetos,
+classes, métodos, outros modules.
+Já no Mixins serve para adicionar funcionalidades extras as classes
 
 
 
