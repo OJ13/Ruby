@@ -83,7 +83,8 @@ Blocks - é um bloco de código que pode ser entendido como uma função anônim
 Lambdas são similares aos blocks mas podem ser salvas em variáveis para ser reutilizadas
 Modules: serve para agruapar um bloco de codigo, no caso de namespace é como um container que agrupa objetos,
 classes, métodos, outros modules.
-Já no Mixins serve para adicionar funcionalidades extras as classes
+Já no Mixins serve para adicionar funcionalidades extras as classes, conseguimos importar funções em outros 
+módulos, através da palavra reservada 'include'
 
 
 
