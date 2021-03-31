@@ -86,6 +86,9 @@ classes, métodos, outros modules.
 Já no Mixins serve para adicionar funcionalidades extras as classes, conseguimos importar funções em outros 
 módulos, através da palavra reservada 'include'
 
+Regex, Time, Method Missing, Self, Method Private and Protected
+Regex é uma notação regular, para validar dados, ou extração em informações de textos
+
 
 
 
