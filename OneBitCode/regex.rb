@@ -30,9 +30,24 @@ puts /\?/.match("Tudo bem?")
 puts /[t]exto/.match('texto começando com t')
 #pesquisar de um a cinco
 puts /[1-5]/.match('123')
+#fazendo com strings
+puts /[a-z]/.match('Oi')
+#Podemos colocar a letra que estamos procurando
+puts /A/.match('A4')
+#Podemos usar \d para podermos usar somente decimais
+puts /\d/.match('A4')
+#As duas acima
+puts /A\d/.match('A4')
 
+#Agora para colocarmos repetição de quantas vezes vamos encontrar, exemplo pegar o DDD de um telefone
+ddd = /[0-9]{2}/.match('11-999999999') #colocamos a condição e quantidade da repetção em seguida, no caso {2}
+puts ddd
 
+telefone = /[0-9]{9}/.match('11-123456789')
+puts telefone
 
+ddd_tel = /\d{2}-\d{8}/.match('11-123456789')
+puts ddd_tel
 
 
 
