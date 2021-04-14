@@ -90,8 +90,9 @@ Regex, Time, Method Missing, Self, Method Private and Protected
 Regex é uma notação regular, para validar dados, ou extração em informações de textos
 Time é para conseguirmos pegar todas as informações de data no caso do nosso servidor
 Method Missing é para interceptar métodos que são chamados e não existem, criamos numa classe a implementação
-method_missing e então colocamos o comportamento o qual pode fazer caso não encontre aquele método
-
+method_missing e então colocamos o comportamento o qual pode fazer caso não encontre aquele método.
+Self é uma variável especial que aponta para o objeto atual, semelhante a palavra reservada 'this' de outras
+linguagens.
 
 
 
