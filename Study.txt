@@ -93,7 +93,10 @@ Method Missing é para interceptar métodos que são chamados e não existem, cr
 method_missing e então colocamos o comportamento o qual pode fazer caso não encontre aquele método.
 Self é uma variável especial que aponta para o objeto atual, semelhante a palavra reservada 'this' de outras
 linguagens.
-
+Métodos Privados e Protegidos, por padrão os métodos definidos são públicos, podendo ser acessado de qualquer 
+lugar, mas existem esses dois tipos de definição de segurança de visualização, o 'Private' só pode ser chamado
+de dentro da classe, já os 'Protected' eles não são chamados de fora da classe, mas uma instancia dentro de
+uma classe pode ser chamado esse métodos protegidos.
 
 
 
