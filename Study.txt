@@ -51,7 +51,7 @@ SELECT - selecionar um ou mais valores dentro de um array, seguindo uma condiç�
 Métodos e GEMS
 Métodos são formas de organizar instruções de um programa, utilizamos a palavra reservada
 'def'
-GEM - é um pacote de funcionalidades a ffim de resolver necessidades específicas de um programa
+GEM - é um pacote de funcionalidades afim de resolver necessidades específicas de um programa
 em Ruby, semelhante a frameworks e libs em outras linguagens
 # para instalar uma gem, usamos o comando (gem install _____)
 # para desinstalar uma gem, usamos o comando (gem uninstall _____)
@@ -103,8 +103,35 @@ Temos os métodos do Objeto 'File':
 - Leitura: para abrir o arquivo usamos o método open({arquivo}), o mesmo consegue passar linha a linha
 - Escrita: usamos também o open({arquivo}, 'a') porém usamos um segundo parametro, 'a', de append, então conseguimos,
             escrever dentro do arquivo
+- Escrita: File.open({arquivo}, 'w') - substitui o arquivo por completo, é uma escrita, que sempre reescreve tudo
 
 Chamadas Web
+Conseguimos conectar nosso software com programas da internet, então vamos utilizar a lib Net::HTTP, para conectar
+com a internet. Requisição Http, Https, Https Post
+exemplo: example = Net::HTTP.get('example.com', '/index.html')
+Quando é uma chamada https, instanciamos o objeto, colocamos a porta, e setamos true o 'use_ssl', então conseguimos
+utilizar a chamada com esse protocolo de segurança
+Já na passagem do Post, temos alguns passos a mais, exemplo:
+'
+    --configura a chamada post
+    req = Net::HTTP::Post.new("/api/users")
+
+    --envia o form, do post
+    req.set_form_data({ name: 'Mario', job: 'Encanador' })
+
+    --envia a chamada post
+    response = Net::HTTP.start('reqres.in', use_ssl: true) do |http|
+        http.request(req)
+    end
+'
+Web Scraping
+Através do web Scraping conseguimos extrair os dados de um site, como por exemplo: resultados de jogos de futebol, notícias
+Para fazermos isso utilizamos uma biblioteca chamada 'Nokogiri', e nos ajudará a encontrar informações dentro das estruturas
+de html dos sites
+
+
+
+
 
 
 
