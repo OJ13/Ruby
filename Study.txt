@@ -98,6 +98,15 @@ lugar, mas existem esses dois tipos de definição de segurança de visualizaç�
 de dentro da classe, já os 'Protected' eles não são chamados de fora da classe, mas uma instancia dentro de
 uma classe pode ser chamado esse métodos protegidos.
 
+Leitura de arquivos
+Temos os métodos do Objeto 'File':
+- Leitura: para abrir o arquivo usamos o método open({arquivo}), o mesmo consegue passar linha a linha
+- Escrita: usamos também o open({arquivo}, 'a') porém usamos um segundo parametro, 'a', de append, então conseguimos,
+            escrever dentro do arquivo
+
+Chamadas Web
+
+
 
 
 
